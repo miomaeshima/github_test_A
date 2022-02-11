@@ -1,5 +1,21 @@
 これはgithubの使い方をテストするレポジトリです。
 
+ここで紹介する流れ
+<ul>
+<li>リモートリポジトリ作成
+<li>ローカルリポジトリ1作成→リモートリポジトリとの連携
+<li>クローン→ローカルリポジトリ2作成→ブランチ作成、そこからpush
+<li>ローカルリポジトリ1からpushしてmerge
+<li>ブランチからのmerge（mainはローカルレポジトリ1からのpushで更新されている）
+<li>→conflictがあるときは？ないときは？
+</ul>
+  
+おまけ
+
+作業が終わってブランチを削除する方法
+
+<hr>
+
 ファイルをgit管理するためには
 
 1. ローカルレポジトリを作る。
@@ -64,12 +80,10 @@ git push origin sub1
 3. 作業後pushしてconflictがあっても、github上で解消するよう誘導されるので心配なし。
 
 
+おまけ
 
+作業が終わって、ブランチを削除する方法
 
+リモート：$ git push --delete origin branchname
 
-
-
-
-
-
-
+ローカル：mergeできているものはgit branch -d [branchname]   mergeできていないものはgit branch -D [branchname]
