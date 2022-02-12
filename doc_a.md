@@ -4,6 +4,7 @@
 ~~version 1~~
 ~~version 2~~ 
 
-~~this is a change originating from branch subA.~~
 
-This is the first change to doc_a from branch subB.
+~~this is a change originating from branch subA. ~~
+
+This is the second change originating from branch subA.
