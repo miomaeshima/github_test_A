@@ -7,3 +7,6 @@
 ~~this is a change originating from branch subA. ~~
 
 This is the second change originating from branch subA.
+
+Now, after making the change in subB, I'm making another change in subA.
+In this commit no change in README.
