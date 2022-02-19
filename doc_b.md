@@ -7,3 +7,5 @@
 
 version 3
 This is the second change originating from subB.
+
+I'm updating some codes on doc_b on github.
