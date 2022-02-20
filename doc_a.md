@@ -18,3 +18,4 @@ Adding a change locally on doc_a (Feb 20 11:54)
 Adding another change locally on doc_a (Feb 20 12:05)
 
 local change 12:13
+local change 12:26
